@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 99.1vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.search-bar {
+  width: 98%;
+  height: 3vh;
+  border: 1px solid #ddd;
+  margin-top: 1%;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  height: 5vh;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+td > p {
+  font-size: large;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+td.copy-button {
+  cursor: pointer;
+  text-align: right;
+  padding-right: 10px;
+  color: #007bff;
+}
+
+.tableItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
